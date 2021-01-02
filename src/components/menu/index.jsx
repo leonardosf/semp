@@ -17,7 +17,7 @@ const NavigationDrawerStructure = (props) => {
     return (
         <View style={{ flexDirection: 'row' }}>
             <TouchableOpacity onPress={() => toggleDrawer()}>
-                <Button icon="menu" color="black" style={{size:'25px'}}/>
+                <Button icon="menu" color="black"/>
             </TouchableOpacity>
         </View>
     );
